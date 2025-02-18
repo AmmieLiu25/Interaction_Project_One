@@ -1,0 +1,96 @@
+body{
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+    background-color: #0A0C29;
+}
+
+.bodytext-container {
+    position: absolute;
+    height: 100vh;
+    width:100vw; 
+    z-index: 10; 
+}
+
+.bodytext {
+    font-family: "Source Serif Pro";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#diamond3 {
+    position: absolute;
+    top: 6.75%;
+    left: 27.9%;
+    width: 3rem; 
+    height: 3rem;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+    z-index:20;
+}
+
+#to {
+    position: absolute;
+    top: 6%; 
+    left: 22%;
+    color: #0A0C29;
+}
+
+#a {
+    position: absolute;
+    top: 12%; 
+    left: 28%;
+    color: #0A0C29; 
+}
+
+#tune {
+    position: absolute;
+    top: 12%; 
+    left: 33%;
+    color: #0A0C29; 
+}
+
+#uncomposed {
+    position: absolute;
+    top: 5%; 
+    left: 38%;
+    color: #0A0C29; 
+}
+
+@media screen and (max-width: 800px) {
+    #diamond3{
+        position: absolute; 
+        top: 38%;
+        left: 32%;
+    }
+
+    .bodytext {
+        font-size: 1.5rem; 
+    }
+
+    #to {
+        top: 35%;
+        left: 24%;
+    }
+
+    #a {
+        top: 30%;
+        left : 30%; 
+    }
+
+    #tune {
+        top: 30%; 
+        left: 40%;
+    }
+
+    #uncomposed {
+        top: 35%;
+        left: 45%; 
+    }
+}
+
+
+

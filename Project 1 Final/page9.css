@@ -1,0 +1,235 @@
+.bodytext-container {
+    position: absolute;
+    height: 100vh;
+    width:100vw; 
+    z-index: 10; 
+}
+
+.bodytext {
+    font-family: "Source Serif Pro";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#mothers {
+    position: absolute;
+    top: 10%; 
+    left: 12%;
+    color: #172058;
+}
+
+#diamond1 {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#have {
+    position: absolute;
+    top: 14%; 
+    left: 20%;
+    color: #22216C; 
+}
+
+#diamond2 {
+    position: absolute;
+    top: 22%;
+    left: 18%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#said {
+    position: absolute;
+    top: 20%; 
+    left: 25%;
+    color: #342A5B; 
+}
+
+#diamond3 {
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#you {
+    position: absolute;
+    top: 16%; 
+    left: 31%;
+    color: #392D56; 
+}
+
+#diamond4 {
+    position: absolute;
+    top: 24%;
+    left: 34%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+
+#have2 {
+    position: absolute;
+    top: 21%; 
+    left: 38%;
+    color: #1A2760; 
+}
+
+#diamond5 {
+    position: absolute;
+    top: 29%;
+    left: 41%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#beheaded {
+    position: absolute;
+    font-family: "Astloch", serif;
+    font-size: 20rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 10;
+    top: -10%;
+    left: 20%;
+    color: #392D56;  
+}
+
+#the {
+    position: absolute;
+    top: 65%; 
+    left: 75%;
+    color: #1A2760; 
+}
+
+#diamond6 {
+    position: absolute;
+    top: 73%;
+    left: 74%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#foolish {
+    position: absolute;
+    top: 62%; 
+    left: 82%;
+    color: #1A2760; 
+}
+
+#diamond7 {
+    position: absolute;
+    top: 70%;
+    left: 81%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#ones {
+    position: absolute;
+    top: 70%; 
+    left: 89%;
+    color: #1A2760; 
+}
+
+#diamond8 {
+    position: absolute;
+    top: 78%;
+    left: 93%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .diamond{
+        width:0.1vh;
+        height:0.1vh; 
+    }
+
+    .bodytext {
+        font-size: 1.5rem; 
+    }
+
+    #beheaded{
+        font-size: 8rem; 
+        top: 20%;
+        left: 20%; 
+    }
+
+    #you {
+        top: 25%; 
+        left: 35%;
+    }
+
+    #diamond4{
+        top: 33%;
+        left: 35%; 
+    }
+
+    #have2{
+        top: 22%;
+        left: 45%;
+    }
+
+    #diamond5 {
+        top: 29%;
+        left: 51%; 
+    }
+
+    #the {
+        top: 55%; 
+        left: 70%;
+    }
+
+    #diamond6 {
+        top: 63%;
+        left: 66%;
+    }
+}

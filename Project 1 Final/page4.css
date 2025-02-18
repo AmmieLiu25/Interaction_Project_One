@@ -1,0 +1,164 @@
+.bodytext-container {
+    position: absolute;
+    height: 100vh;
+    width:100vw; 
+    z-index: 10; 
+}
+
+.bodytext {
+    font-family: "Source Serif Pro";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#it {
+    position: absolute;
+    top: 10%; 
+    left: 15%;
+    color: #172058;
+}
+
+#diamond1 {
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#is {
+    position: absolute;
+    top: 20%; 
+    left: 30%;
+    color: #22216C; 
+}
+
+#diamond2 {
+    position: absolute;
+    top: 28%;
+    left: 32%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#believed {
+    position: absolute;
+    top: 35%; 
+    left: 45%;
+    color: #342A5B; 
+}
+
+#diamond3 {
+    position: absolute;
+    top: 43%;
+    left: 42%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#that {
+    position: absolute;
+    top: 50%; 
+    left: 55%;
+    color: #392D56; 
+}
+
+#diamond4 {
+    position: absolute;
+    top: 58%;
+    left: 52%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#you {
+    position: absolute;
+    top: 60%; 
+    left: 70%;
+    color: #362A5A; 
+}
+
+#diamond5 {
+    position: absolute;
+    top: 68.5%;
+    left: 73%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#will {
+    position: absolute;
+    top: 70%; 
+    left: 85%;
+    color: #1A2760; 
+}
+
+#diamond6 {
+    position: absolute;
+    top: 78%;
+    left: 82%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+.transition-circle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #0A0C29;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
+    z-index: 9999;
+}
+
+/* Expand the circle */
+.expand {
+    width: 300vw;  /* Ensures full coverage */
+    height: 300vw; /* Ensures full coverage */
+}
+
+@media screen and (max-width: 800px) {
+    .diamond{
+        width:0.1vh;
+        height:0.1vh; 
+    }
+
+    .bodytext {
+        font-size: 1.5rem; 
+    }
+}

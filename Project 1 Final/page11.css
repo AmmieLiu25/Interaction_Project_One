@@ -1,0 +1,72 @@
+body{
+    background-color: #0A0C29;
+    transition: all 3s ease-in-out;
+}
+
+.headline-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10; 
+}
+
+.diamond {
+    position: absolute;
+    width: 3rem; 
+    height: 3rem; 
+    background-image: url("star-page5.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#diamond1{
+    top:50%;
+    left:110%;
+}
+
+#diamond2{
+    top:80%;
+    left:-30%;
+}
+
+#diamond3{
+    top:5%;
+    left:5%;
+}
+
+.dance {
+    font-family: "Astloch", serif;
+    font-size: 20rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 10; 
+    position: relative;
+    color:#0A0C29; 
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+@media screen and (max-width: 1000px) {
+    .diamond{
+        width:7vw;
+        height:7vw; 
+    }
+
+    .dance{
+        font-size:15vw; 
+    }
+    
+}
