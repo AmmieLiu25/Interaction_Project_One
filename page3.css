@@ -1,0 +1,190 @@
+.bodytext-container {
+    position: absolute;
+    height: 100vh;
+    width:100vw; 
+    z-index: 10; 
+}
+
+.bodytext {
+    font-family: "Source Serif Pro";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#to {
+    position: absolute;
+    top: 10%; 
+    left: 10%;
+    color: #16214B;
+}
+
+#diamond1 {
+    position: absolute;
+    top: 19%;
+    left: 9%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#a {
+    position: absolute;
+    top: 20%; 
+    left: 15%;
+    color: #172152; 
+}
+
+#diamond2 {
+    position: absolute;
+    top: 29%;
+    left: 15%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#tune {
+    position: absolute;
+    top: 30%; 
+    left: 20%;
+    color: #192157; 
+}
+
+#diamond3 {
+    position: absolute;
+    top: 39%;
+    left: 18%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#unheard {
+    position: absolute;
+    top: 40%; 
+    left: 35%;
+    color: #2A2561; 
+}
+
+#diamond4 {
+    position: absolute;
+    top: 48%;
+    left: 38%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#to2 {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    color: #362A5A; 
+}
+
+#diamond5 {
+    position: absolute;
+    top: 58%;
+    left: 48%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#a2 {
+    position: absolute;
+    top: 55%; 
+    left: 55%;
+    color: #392D5A; 
+}
+
+#diamond6 {
+    position: absolute;
+    top: 63%;
+    left: 53%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#tune2 {
+    position:absolute;
+    top: 65%; 
+    left: 70%;
+    color: #352D59; 
+}
+
+#diamond7 {
+    position: absolute;
+    top: 73%;
+    left: 73%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+#uncomposed2 {
+    position: absolute;
+    top: 75%; 
+    left: 85%;
+    color: #12246A; 
+}
+
+#diamond8 {
+    position: absolute;
+    top: 83%;
+    left: 83%;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-image: url("homepage-star.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .diamond{
+        width:0.1vh;
+        height:0.1vh; 
+    }
+
+    .bodytext {
+        font-size: 1.5rem; 
+    }
+
+    #uncomposed2{
+        top:75%;
+        left:70%;
+    }
+}
